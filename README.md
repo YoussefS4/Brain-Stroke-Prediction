@@ -53,7 +53,7 @@ A fasting blood sugar level of 99 mg/dL or lower is normal
 - People with low and high levels of glucose both can get hypertension, heart disease, and stroke
 - Getting old can cause an increase in BMI levels
 - Increasing BMI levels can cause an increase of avg_glucose levels
-- The dataset is imbalanced and will resolve this by sampling (Oversampling), so in this dataset we will focus on AUC-ROC and Recall metrics
+- The dataset is imbalanced and will resolve this by sampling (Oversampling), so in this dataset, we will focus on AUC-ROC and Recall metrics because we don't want to misclassify any stroke patient as a non-stroke patient
 
 # Modeling 
 ## The Algorithms used:
