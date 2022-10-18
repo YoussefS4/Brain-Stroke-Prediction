@@ -44,7 +44,7 @@ A fasting blood sugar level of 99 mg/dL or lower is normal
 - Question 13: Does work type can be a factor for hypertension and heartdisease?
 - Question 14: Does BMI levels have a relation with avg_glucose_levels?
 
-## Conclusions for Analysis
+## Findings
 - Females are more likely to have hypertension and stroke but Males are more likely to have heart disease
 - People who have aged more than 40 are more likely to have hypertension, heart disease and stroke
 - An unexpected result of smoking is that the "never smoked" category is more likely to have hypertension, heart disease, and stroke also the category that does not have hypertension and heart disease is more likely to have a stroke
@@ -53,17 +53,45 @@ A fasting blood sugar level of 99 mg/dL or lower is normal
 - People with low and high levels of glucose both can get hypertension, heart disease, and stroke
 - Getting old can cause an increase in BMI levels
 - Increasing BMI levels can cause an increase of avg_glucose levels
+- The dataset is imbalanced and will resolve this by sampling (Oversampling), so in this dataset we will focus on AUC-ROC and Recall metrics
 
 # Modeling 
 ## The Algorithms used:
-The Algorithms used:
 
 - Logistic Regression
+      - Accuracy: 77.1% 
+      - Precision: 75.3%
+      - Recall: 80%
+      - F1-score: 77%
+      - AUC-ROCSCORE: 84.5%
 - XGB Classifier
+      - Accuracy: 96.3% 
+      - Precision: 93.2%
+      - Recall: 100%
+      - F1-score: 96.4%
+      - AUC-ROCSCORE: 99.3%
 - Decision Tree Classifier
+      - Accuracy: 97.6% 
+      - Precision: 95.5%
+      - Recall: 100%
+      - F1-score: 97.7%
+      - AUC-ROCSCORE: 97.6%
 - SVC
+      - Accuracy: 77.4% 
+      - Precision: 73.2%
+      - Recall: 86.2%
+      - F1-score: 79.2%
+      - AUC-ROCSCORE: 84.8%
 - Extra Trees Classifier
-
+      - Accuracy: 98.6% 
+      - Precision: 97.3%
+      - Recall: 100%
+      - F1-score: 98.6%
+      - AUC-ROCSCORE: 99.8%
+      
+## Conclusion:
+- Extra Trees Classifier Model performs the best with 100% Recall and 99.8% AUC score
+- The model does not misclassify any stroke patient as a non-stroke patient, which is fascinating. We don't want any patient who is suffering from a stroke to be categorized as having a non-stroke and so not receive the necessary medical care
 ## Project Scope
 - Data Wrangling 
 - Exploratory Data Analysis (EDA)
