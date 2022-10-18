@@ -63,31 +63,31 @@ A fasting blood sugar level of 99 mg/dL or lower is normal
       - Precision: 75.3%
       - Recall: 80%
       - F1-score: 77%
-      - AUC-ROCSCORE: 84.5%
+      - AUC-ROC score: 84.5%
 - XGB Classifier
       - Accuracy: 96.3% 
       - Precision: 93.2%
       - Recall: 100%
       - F1-score: 96.4%
-      - AUC-ROCSCORE: 99.3%
+      - AUC-ROC score: 99.3%
 - Decision Tree Classifier
       - Accuracy: 97.6% 
       - Precision: 95.5%
       - Recall: 100%
       - F1-score: 97.7%
-      - AUC-ROCSCORE: 97.6%
+      - AUC-ROC score: 97.6%
 - SVC
       - Accuracy: 77.4% 
       - Precision: 73.2%
       - Recall: 86.2%
       - F1-score: 79.2%
-      - AUC-ROCSCORE: 84.8%
+      - AUC-ROC score: 84.8%
 - Extra Trees Classifier
       - Accuracy: 98.6% 
       - Precision: 97.3%
       - Recall: 100%
       - F1-score: 98.6%
-      - AUC-ROCSCORE: 99.8%
+      - AUC-ROC score: 99.8%
       
 ## Conclusion:
 - Extra Trees Classifier Model performs the best with 100% Recall and 99.8% AUC score
